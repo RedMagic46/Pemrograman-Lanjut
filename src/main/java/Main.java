@@ -33,5 +33,7 @@ public class Main {
         System.out.println("\n");
         rekening1.tampilkanInfo();
         rekening2.tampilkanInfo();
+
+        System.out.println("Halo");
     }
 }
