@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         RekeningBank rekening1 = new RekeningBank();
         RekeningBank rekening2 = new RekeningBank();
+        RekeningBank rekening3 = new RekeningBank();
+        RekeningBank rekening4 = new RekeningBank();
 
         rekening1.namaPemilik = "Naufal Muammar";
         rekening1.nomorRekening = "202410370110027";
@@ -11,8 +13,18 @@ public class Main {
         rekening2.nomorRekening = "202410370110429";
         rekening2.saldo = 99999;
 
+        rekening3.namaPemilik = "Sabiikha Marsya Ananda";
+        rekening3.nomorRekening = "202410370110440";
+        rekening3.saldo = 1000000;
+
+        rekening4.namaPemilik = "Dinar Syahgita Sherani";
+        rekening4.nomorRekening = "202410370110432";
+        rekening4.saldo = 500000;
+
         rekening1.tampilkanInfo();
         rekening2.tampilkanInfo();
+        rekening3.tampilkanInfo();
+        rekening4.tampilkanInfo();
         rekening1.setorUang(10000);
         rekening2.setorUang(1);
         System.out.println("\n");
