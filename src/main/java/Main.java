@@ -35,5 +35,6 @@ public class Main {
         rekening2.tampilkanInfo();
 
         System.out.println("Halo");
+        System.out.println(akwokoko);
     }
 }
